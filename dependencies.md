@@ -8,6 +8,7 @@ Current normative docs
   - jedp has kept this up to date
 * https://github.com/jedp/fxa-fxos/blob/master/img/architecture.png
 * http://www.gliffy.com/go/publish/image/5067437/L.png
+* ferjm gaia->gecko API to review: https://pastebin.mozilla.org/3456934 (see postscript)
 
 26 Nov Go / No Go Criteria
 --------------------------
@@ -23,18 +24,40 @@ Current normative docs
 |   Area  |   Owner    |   Open loop              |  Bug?
 | ------- | ---------- | ------------------------ | ----------- |
 | UX       | lloyd?    | COPPA needed for 1.3?    | 936281
-| UX       | jgruen    | Password reset -> web
+| UX       | jgruen    | Password change, reset UX|
+| Gecko    | ckarlof   | certificate TTL?
 | FTU      | borja     | email capture/pre-pop
+| System   | jedp      | push notifications of delete/verify email?
 | System   | jedp      | email FTU -> Mail app
-| Settings | jedp      | Log out from Settings? 
-| Settings | jedp      | Delete account from Settings?
+| Settings | jedp      | Log out from Settings?
+| Settings | jedp      | UX for Delete account?
+  has to get to services (MP/WMF? external storage)
+  friendly UX on device, or just fail-on-next use?
 | Frontend | jedp      | Launch creation flow from RPs?
+
+Password reset/change and account deletion
+------------------------------------------
+All user actions performed on Web -> jgruen please update UXv.0.10
+  May require design phase: jgruen and ???
+
+What is on-device experience post-invalidation?
+  With push notification (may not ship, not 100% reliable)
+  W/o notification:
+    1) Expiration time for public key signing (current: 6 hours)
+       latency vs network traffic tradeoff
+    2) Can re-check on assertion generation:
+       Problem: if assertion in use and check returns invalid requires firing event to App
+
+What is service/data experience for deletion?
+  How do we delete user data from e.g. Marketplace?
+  What on-device storage needs clearing?
+
 
 |   Milestone      | Owner     | Target | Details |
 | ---------------- | --------- | ------ | -------- |
 | Final UX         | jgruen    | 13 Nov | Exactly what we're building, by EoD
 | Alpha build      | jedp      | 14 Nov | Screen to FxA server on device for WMF?, MP
-| No open loops    | spenrose  | 15 Nov | Only execution left
+| All decisions made | spenrose  | 15 Nov | Only execution left
 | Beta gut check   | jedp      | 26 Nov | Does 9 Dec look makeable?
 | Broadcast status | toxborrow | 27 Nov | Beta status to all stakeholders
 | Q/A Placehold1   | edwong    | 27 Nov | Details TBD
@@ -42,6 +65,18 @@ Current normative docs
 | Q/A Placehold2   | edwong    | 02 Dec | TBD
 
 * for some definition of "All"
+
+External relationship contacts
+------------------------------
+  arogers for FxOS product
+  ckarlof FxA Services
+  cserran for FxOS engineering
+  edwong for Q/A
+  jgruen for UX (including FxOS UX team)
+  kparlante for Metrics
+  lloyd for general vetting
+  toxborrow for Legal
+  toxborrow / Rob Fletcher for Security
 
 The next table is for tracking reviewer assignments. It's a mess, updates coming
 
