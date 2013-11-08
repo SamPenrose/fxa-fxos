@@ -54,16 +54,14 @@ Meta-questions:
 | Settings UX HTML/JS    |
 | Sign-In UX HTML/JS     |
 | Integration Tests      |
-
 |    **Gecko**           |
 | Pref/flag to disable?  |
-| FXAccounts.jsm         |  935234     Tue ?
-| FXAccountsClient.jsm   |  935232     Mon ?
-| MinimalIdentity.jsm    |       ?                   ]
+| FXAccounts.jsm         |  935234    | 
+| FXAccountsClient.jsm   |  935232    | 
+| MinimalIdentity.jsm    |       ?    |
 | DomIdentity.jsm        |  929386         ?
 | SignInToFxA.jsm        |       ?
-| jwcrypto	         |  936146         ?
-
+| jwcrypto	         |  936146
 |    **gaia/System**
 | Pref/flag to disable?  |
 | fxa_manager.js         |  929388         ?
@@ -71,7 +69,6 @@ Meta-questions:
 | fxa_client.js          |  929388
 |    **gaia/shared**     |
 | fxa_iac_helper.js      |       ?
-
 |    **Web services**    |
 | picl-idp/raw_password  |
 | password reset         |
