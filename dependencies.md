@@ -15,10 +15,9 @@ Meta-questions:
   Who owns keeping them accurate?
 
 
-|   Area  |   Owner   |          Issue         |
+|   Area  |   Owner    |   Open loop       |
 | ----------------------------------------|
-| UX       | lloyd     | COPPA needed for 1.3? 
-| UX       | jedp      | email verif: requires password?
+| UX       | lloyd?    | COPPA needed for 1.3?
 | UX       | jgruen    | Move password reset -> web
 | FTU      | borja     | email stored between screens?
 | System   | jedp      | email captured in FTU pre-populated elsewhere?
@@ -28,22 +27,40 @@ Meta-questions:
 | Frontend | jedp      | Can we launch creation flow from MP/WMF?
 
 
+| Milestones     | Owner   | Target | Details |
+| -------------- | ------- | ------ | -------- |
+| Alpha build    | jedp    | 13 Nov | You can use the screens on the phone
+| No open loops  | spenrose? | 15 Nov | Only execution left
+| Beta gut check | jedp | 26 Nov | Does 9 Dec look makeable?
+| Ready for 9 Dec| jedp | 02 Dec | All 9 Dec tasks due
+| Q/A Placeholder 1 | edwong | ?
+| Q/A Placeholder 2 | edwong | ?
+
+26 Nov Go / No Go
+ - no open loops
+ - all statuses re-verified
+ - list of incomplete tasks:
+   * short
+   * owned by someone who promises by 02 December
+
 ETHERPAD HARVEST
 
 |   Deliverable          |    Bug     |  Assignee  |    Ready    |     f?     |    r?      | Need By (default: 9 December) |
 | ---------------------- | ---------- | ------------------ | ---------- | ---------- |
+| Final UX (?) 
 | FTU UX HTML/JS         |
 | Settings UX HTML/JS    |
 | Sign-In UX HTML/JS     |
+| Integration Tests      |
 
 |    **Gecko**           |
 | Pref/flag to disable?  |
-| FXAccounts.jsm           935234     Tue ?
-| FXAccountsClient.jsm     935232     Mon ?
-| [MinimalIdentity.jsm           ?                   ]
-| DomIdentity.jsm          929386         ?
-| SignInToFxA.jsm               ?
-| jwcrypto	             936146         ?
+| FXAccounts.jsm         |  935234     Tue ?
+| FXAccountsClient.jsm   |  935232     Mon ?
+| MinimalIdentity.jsm    |       ?                   ]
+| DomIdentity.jsm        |  929386         ?
+| SignInToFxA.jsm        |       ?
+| jwcrypto	         |    936146         ?
 
 |    **gaia/System**
 | Pref/flag to disable?  |
@@ -56,6 +73,8 @@ ETHERPAD HARVEST
 |    **Web services**    |
 | picl-idp/raw_password  |
 | password reset         |
-  
-Q/A
-  peformance recordability
+
+| Vetting                |
+| Legal                  |
+| Security               | Rob Fletcher |
+
