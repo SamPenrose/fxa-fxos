@@ -10,7 +10,7 @@ Everyone: read. Own each decision or object now. If you can think of an unmade d
 
 John: note which changes require UX updates (all the 'Y' in the rightmost column below). We are going to ask you to fast-track them.
 
-Tauni: own landing the COPPA decision, or tell me who else to ask.
+Tauni: own landing the COPPA decision, or tell me who else to ask. Own followup on Marketplace/Legal issues with account deletion, or tell me who else to ask.
 
 Summary
 -------
@@ -24,11 +24,11 @@ Summary
 | System   | jedp      | email FTU -> Mail app     | No          | Y?
 | Settings | jedp      | Login state per-app?      | No          | Y
 | Settings | jedp      | UX for Delete account?    | web         | Y
-| Frontend | jedp      | Launch SignUp flow fr. RP | Y           | N
+| MP/Legal | toxborrow | Marketplace & Deletion    | socialize   | N
 
 1) Do we need COPPA verification in 1.3?
 
-2) Password change and reset flows will NOT happen on device; instead the user will click a link which takes them to the web. We need to update the DEVICE UX immediately. The web UX can follow less urgently.
+2) Password change and reset flows will NOT happen on device; instead the user will click a link which takes them to the web. We need to update the device UX immediately. The web UX can follow less urgently.
 
 3) The expiration time for FxA certificates is currently set to 6 hours, which means 6 hours without extra data over the network, and up to 6 hours before the phone knows of e.g. password resets. Changing the value in either direction makes some issues better and some worse.
 
@@ -39,3 +39,7 @@ Summary
 6) UX mocks show email address from the FTU being auto-filled into the Mail app. This will NOT happen in 1.3, and the final UX should not show it.
 
 7) Logged-in state is device-wide, not per-app. Settings UX should show "log out" accordingly (a change from the current separate toggles for Marketplace and WMF?).
+
+8) UX for Delete Account will be on the web. Settings should provide a link to it. We need to update the device UX immediately, the web UX less urgently.
+
+9) Chris points out that "Delete Account" can have major UX, business, and possibly legal consequences for Marketplace (and maybe Where's My Fox?). We may be subject to regulations that say "delete account means clearing user data", and Marketplace business folks may be opposed. We need to raise the issue with them and socialize the 1.3 deadline context in which it has arisen.

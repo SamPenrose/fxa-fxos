@@ -31,7 +31,7 @@ Current normative docs
 | System   | jedp      | email FTU -> Mail app     | No          | Y?
 | Settings | jedp      | Login state per-app?      | No          | Y
 | Settings | jedp      | UX for Delete account?    | web         | Y
-| Frontend | jedp      | Launch SignUp flow fr. RP | Y           | N
+| MP/Legal | toxborrow | Marketplace & Deletion    | socialize   | N
 
 c.f. decisions.md
 
@@ -51,7 +51,6 @@ What is on-device experience post-invalidation?
 What is service/data experience for deletion?
   How do we delete user data from e.g. Marketplace?
   What on-device storage needs clearing?
-
 
 |   Milestone      | Owner     | Target | Details |
 | ---------------- | --------- | ------ | -------- |
