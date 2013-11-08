@@ -8,12 +8,6 @@ Current normative docs
   - jedp has kept this up to date
 * https://github.com/jedp/fxa-fxos/blob/master/img/architecture.png
 
-Meta-questions:
-  How accurate do UX mocks / specs have to be?
-    jedp: "pixel-accurate"
-    Who owns keeping them accurate?: jgruen
-
-
 |   Area  |   Owner    |   Open loop       | Needs Bug?
 | ------- | ---------- | ----------------- |----------- |
 | UX       | lloyd?    | COPPA needed for 1.3? | (new bug)
@@ -30,6 +24,7 @@ Meta-questions:
 | -------------- | ------- | ------ | -------- |
 | Alpha build    | jedp      | 14 Nov | Screen to FxA server on device
 | No open loops  | spenrose? | 15 Nov | Only execution left
+| Pixel-accurate mocks | jgruen | 18 Nov | Exactly what we're building
 | Beta gut check | jedp | 26 Nov | Does 9 Dec look makeable?
 | Ready for 9 Dec| jedp | 02 Dec | All 9 Dec tasks due
 | Q/A Placeholder 1 | edwong | ?
