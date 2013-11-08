@@ -30,7 +30,7 @@ Meta-questions:
 
 | Milestones     | Owner   | Target | Details |
 | -------------- | ------- | ------ | -------- |
-| Alpha build    | jedp      | 13 Nov | You can use the screens on the phone
+| Alpha build    | jedp      | 14 Nov | Screen to FxA server on device
 | No open loops  | spenrose? | 15 Nov | Only execution left
 | Beta gut check | jedp | 26 Nov | Does 9 Dec look makeable?
 | Ready for 9 Dec| jedp | 02 Dec | All 9 Dec tasks due
@@ -46,9 +46,6 @@ Meta-questions:
    * 90% targetted by 02 December
 
 
-** get on top of warner FxA*jsm dependency
-** 14 November: talk to fxaccounts server from native chrome
-**show warner my FxAccountsClient.jsm work
 
 |   Deliverable          |    Bug     |  Assignee  |    Ready    |     f?     |    r?      | Need By (default: 9 December) |
 | ---------------------- | ---------- | ------------------ | ---------- | ---------- |
