@@ -10,30 +10,30 @@ Current normative docs
 * http://www.gliffy.com/go/publish/image/5067437/L.png
 * ferjm gaia->gecko API to review: https://pastebin.mozilla.org/3456934 (see postscript)
 
-26 Nov Go / No Go Criteria
---------------------------
- - no open loops
+26 Nov Go / No Go Milestone: Criteria
+-------------------------------------
+ - all decisions made
  - all statuses re-verified
  - list of incomplete tasks must be:
    * short
    * 100% owned
    * 90% targetted by 02 December
 
-**Decisions we have to make ASAP**
+**Decisions we have to make by Tuesday 12 Nov**
 
-|   Area  |   Owner    |   Open loop              |  Bug?
-| ------- | ---------- | ------------------------ | ----------- |
-| UX       | lloyd?    | COPPA needed for 1.3?    | 936281
-| UX       | jgruen    | Password change, reset UX|
-| Gecko    | ckarlof   | certificate TTL?
-| FTU      | borja     | email capture/pre-pop
-| System   | jedp      | push notifications of delete/verify email?
-| System   | jedp      | email FTU -> Mail app
-| Settings | jedp      | Log out from Settings?
-| Settings | jedp      | UX for Delete account?
-  has to get to services (MP/WMF? external storage)
-  friendly UX on device, or just fail-on-next use?
-| Frontend | jedp      | Launch creation flow from RPs?
+|   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
+| ------- | ---------- | ------------------------- | ----------- | ---------- |
+| UX       | lloyd?    | COPPA needed for 1.3?     | <toxborrow> | Yes -> Y   |
+| UX       | jgruen    | Password change, reset UX | web         | Y          |
+| Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
+| FTU      | borja     | email capture/pre-pop     | No          | Y?
+| System   | jedp      | push notif'n to device    | No          | N
+| System   | jedp      | email FTU -> Mail app     | No          | Y?
+| Settings | jedp      | Login state per-app?      | No          | Y
+| Settings | jedp      | UX for Delete account?    | web         | Y
+| Frontend | jedp      | Launch SignUp flow fr. RP | Y           | N
+
+c.f. decisions.md
 
 Password reset/change and account deletion
 ------------------------------------------
@@ -55,9 +55,12 @@ What is service/data experience for deletion?
 
 |   Milestone      | Owner     | Target | Details |
 | ---------------- | --------- | ------ | -------- |
+| Broadcast roadmap| toxborrow | 12 Nov | All "external relationship contacts" alerted
 | Final UX         | jgruen    | 13 Nov | Exactly what we're building, by EoD
-| Alpha build      | jedp      | 14 Nov | Screen to FxA server on device for WMF?, MP
-| All decisions made | spenrose  | 15 Nov | Only execution left
+| Reviewers chosen | spenrose  | 13 Nov |
+| Alpha build      | jedp      | 14 Nov | Nightly try build for WMF?, MP
+| Decisions made   | spenrose  | 15 Nov | Only execution left
+| Review #1 (all)  | spenrose  | 21 Nov | Every patch has initial review returned
 | Beta gut check   | jedp      | 26 Nov | Does 9 Dec look makeable?
 | Broadcast status | toxborrow | 27 Nov | Beta status to all stakeholders
 | Q/A Placehold1   | edwong    | 27 Nov | Details TBD
@@ -92,7 +95,7 @@ The next table is for tracking reviewer assignments. It's a mess, updates coming
 | Settings UX HTML/JS    |
 | Sign-In UX HTML/JS     |
 | Integration Tests      |
-|    **Gecko**           |
+|    **Gecko**           |                   taubert, gavin, rnewman
 | Pref/flag to disable?  |
 | FXAccounts.jsm         |  935234    |                            
 | FXAccountsClient.jsm   |  935232    | 
@@ -108,3 +111,42 @@ The next table is for tracking reviewer assignments. It's a mess, updates coming
 | password reset         |
 
 * "BOS": borjasalguero, olavnymoen, stomlinson
+
+---------------
+spenrose Meta-TODO for this doc:
+  jedp re owners for each open loop
+  headsup to lloyd, toxborrow with result
+    -> note any controversial on etherpad for input
+
+  jgruen re need for final UX by Weds
+    which means we need delta between latest and final
+      user stories match FX wiki (no "or Persona account")
+      password reset -> web
+      FTU email capture and pre-populate
+      log out from settings
+      delete account from settings?
+      launch creation flow from RP
+    which means we need to walk through latest
+
+  walk through meta-bugs
+    do we have security meta-bug?
+
+------ ferjm gaia <-> gecko 08 Nov -------
+          case 'delete':
+            // TODO: FxAccounts.? Maybe remote
+            break;
+          case 'getAccounts':
+            // TODO: FxAccounts.getSignedInUser                                   
+            break;                                                                 
+          case 'logout':
+            // TODO: FxAccounts.signOut
+            break;
+          case 'signIn':
+            // TODO: FxAccountsClient.signIn
+            break;
+          case 'signUp':                                                           
+            // TODO: FxAccountsClient.signUp                                       
+            break;
+          case 'verificationStatus':                                               
+            // TODO: FxAccounts.verificationStatus or maybe FxAccounts.getSignedUser if we do it async
+            break; 
