@@ -1,14 +1,12 @@
 Current normative docs (are we regularly reviewing them for accuracy?)
 -----------------------------
-https://wiki.mozilla.org/Identity/Firefox-Accounts
-https://wiki.mozilla.org/Identity/UX#FXOS
-  both screen flows have minor inaccuracies as of 7 November
-    examples: "or Persona Account", on-device password change
-
-https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
-  jedp has kept this up to date
-https://github.com/jedp/fxa-fxos/blob/master/img/architecture.png
-  I believe this is now slightly inaccurate
+* https://wiki.mozilla.org/Identity/Firefox-Accounts
+* https://wiki.mozilla.org/Identity/UX#FXOS
+  - both screen flows have minor inaccuracies as of 7 November
+    - examples: "or Persona Account", on-device password change
+* https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
+  - jedp has kept this up to date
+* https://github.com/jedp/fxa-fxos/blob/master/img/architecture.png
 
 Meta-questions:
   How accurate do UX mocks / specs have to be?
