@@ -1,5 +1,5 @@
-Current normative docs (are we regularly reviewing them for accuracy?)
------------------------------
+Current normative docs
+----------------------
 * https://wiki.mozilla.org/Identity/Firefox-Accounts
 * https://wiki.mozilla.org/Identity/UX#FXOS
   - both screen flows have minor inaccuracies as of 7 November
