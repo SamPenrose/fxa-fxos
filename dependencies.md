@@ -48,7 +48,7 @@ Meta-questions:
 
 
 |   Deliverable          |    Bug     |  Assignee  |    Ready    |     f?     |    r?      | Need By (default: 9 December) |
-| ---------------------- | ---------- | ------------------ | ---------- | ---------- |
+| ---------------------- | ---------- | ---------- | ----------- | ---------- | ---------- | ----------------------------- |
 | Final UX (?)           |            | jgruen
 | FTU UX HTML/JS         |
 | Settings UX HTML/JS    |
