@@ -53,6 +53,7 @@ c.f. decisions.md
 
 Representatives
 ----------------
+
 |   Owner    | Area |
 | ---------- | ------------ |
 |  arogers   | FxOS product
