@@ -52,13 +52,14 @@ c.f. decisions.md
 * for some definition of "All"
 
 Representatives
-| Owner    | Area |
-| -------- | ------------ |
-|  arogers | FxOS product
-|  ckarlof | FxA Services
-|  cserran | FxOS engineering
-|  edwong  | Q/A
-|  jgruen  | UX (including FxOS UX team)
+----------------
+|   Owner    | Area |
+| ---------- | ------------ |
+|  arogers   | FxOS product
+|  ckarlof   | FxA Services
+|  cserran   | FxOS engineering
+|  edwong    | Q/A
+|  jgruen    | UX (including FxOS UX team)
 |  kparlante | Metrics
 |  lloyd     | Mozilla as a whole
 |  toxborrow | Legal
