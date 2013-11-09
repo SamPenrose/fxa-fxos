@@ -51,17 +51,18 @@ c.f. decisions.md
 
 * for some definition of "All"
 
-External relationship contacts
-------------------------------
-  arogers for FxOS product
-  ckarlof FxA Services
-  cserran for FxOS engineering
-  edwong for Q/A
-  jgruen for UX (including FxOS UX team)
-  kparlante for Metrics
-  lloyd for general vetting
-  toxborrow for Legal
-  toxborrow / Rob Fletcher for Security
+Representatives
+| Owner    | Area |
+| -------- | ------------ |
+|  arogers | FxOS product
+|  ckarlof | FxA Services
+|  cserran | FxOS engineering
+|  edwong  | Q/A
+|  jgruen  | UX (including FxOS UX team)
+|  kparlante | Metrics
+|  lloyd     | Mozilla as a whole
+|  toxborrow | Legal
+|  toxborrow | Security
 
 The next table is for tracking reviewer assignments. Updates coming
 
