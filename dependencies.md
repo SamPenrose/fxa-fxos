@@ -69,5 +69,11 @@ The next table is for tracking reviewer assignments. Updates coming
 | Bug    |  scope   | assignee | f?/r? candidates  | f? booked    | r? booked | details |
 | ------ | -------- | -------- | ----------------- | ------------ | --------- | -------|
 | 929388 | gaia/sys | ferjm    | alive, vivien     |
-|        | gaia/UI  | BOS*     | alive
-| 929386 | DomIdentity.jsm  | ferjm    | <spenrose>
+| 929386 | gecko    | ferjm    | <spenrose>
+| 930471 | gaia/UI  | stomlinson | alive
+| 930074 | gaia/UI  | olav (?) | alive?
+| 935232 | gecko    | zaach    | ferjm?
+| 930598 | gecko    | ttaubert | 
+| 935234 | gecko    | warner   |
+| 936146 | gecko    | jedp     | warner? <>?
+| 936487 | META     | TBD      | (this is the disable flag)
