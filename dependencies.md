@@ -6,9 +6,7 @@ Current normative docs
     - examples: "or Persona Account", on-device password change
 * https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
   - jedp has kept this up to date
-* https://github.com/jedp/fxa-fxos/blob/master/img/architecture.png
 * http://www.gliffy.com/go/publish/image/5067437/L.png
-* ferjm gaia->gecko API to review: https://pastebin.mozilla.org/3456934 (see postscript)
 
 26 Nov Go / No Go Milestone: Criteria
 -------------------------------------
@@ -23,7 +21,7 @@ Current normative docs
 
 |   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
 | ------- | ---------- | ------------------------- | ----------- | ---------- |
-| UX       | lloyd?    | COPPA needed for 1.3?     | <toxborrow> | Yes -> Y   |
+| UX       | toxborrow | COPPA needed for 1.3?     | ?           | Yes -> Y   |
 | UX       | jgruen    | Password change, reset UX | web         | Y          |
 | Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
 | FTU      | borja     | email capture/pre-pop     | No          | Y?
