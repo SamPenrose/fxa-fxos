@@ -24,6 +24,7 @@ Current normative docs
 | UX       | toxborrow | COPPA needed for 1.3?     | ?           | Yes -> Y   |
 | UX       | jgruen    | Password change, reset UX | web         | Y          |
 | Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
+| Gecko    | ckarlof   | use raw_password api      | Yes         | N
 | FTU      | borja     | email capture/pre-pop     | No          | Y?
 | System   | jedp      | push notif'n to device    | No          | N
 | System   | jedp      | email FTU -> Mail app     | No          | Y?
@@ -77,3 +78,5 @@ The next table is for tracking reviewer assignments. Updates coming
 | 935234 | gecko    | warner   |
 | 936146 | gecko    | jedp     | warner? <>?
 | 936487 | META     | TBD      | (this is the disable flag)
+
+shane and olav doing front end, borja and sergi reviewing
