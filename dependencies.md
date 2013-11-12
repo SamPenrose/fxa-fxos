@@ -65,18 +65,22 @@ Representatives
 |  toxborrow | Legal
 |  toxborrow | Security
 
-The next table is for tracking reviewer assignments. Updates coming
+The next table is for tracking reviewer assignments for the meatiest 2/3 of the bugs that need to land in mozilla-central before 09 December.
 
-| Bug    |  scope   | assignee | f?/r? candidates  | f? booked    | r? booked | details |
-| ------ | -------- | -------- | ----------------- | ------------ | --------- | -------|
-| 929388 | gaia/sys | ferjm    | alive, vivien     |
-| 929386 | gecko    | ferjm    | <spenrose>
-| 930471 | gaia/UI  | stomlinson | alive
-| 930074 | gaia/UI  | olav (?) | alive?
-| 935232 | gecko    | zaach    | ferjm?
-| 930598 | gecko    | ttaubert | 
-| 935234 | gecko    | warner   |
-| 936146 | gecko    | jedp     | warner? <>?
-| 936487 | META     | TBD      | (this is the disable flag)
+| Bug    |  scope   | assignee      | f?/r? candidates  | f? booked    | r? booked | details |
+| ------ | -------- | ------------- | ----------------- | ------------ | --------- | -------|
+| 929388 | gaia/sys | ferjm         | alive, vivien     |
+| 929386 | gecko    | ferjm         | <spenrose>
+| 930471 | gaia/UI  | stomlinson    | borja, sergi      | yes          | yes
+| 930074 | gaia/UI  | olav (?)      | borja, sergi      | yes          | yes
+| 935602 | gaia/UI  | borjasalguero | alive?
+| 935232 | gecko    | zaach         | ferjm?
+| 909967 | gecko    | zaach         | rnewman?          | 
+| 929386 | gecko    | ferjm         | 
+| 930598 | gecko    | ttaubert      | warner?           |              |    | Hawk
+| 935234 | gecko    | warner        | ferjm?            |              |    | FxAccounts
+| 936146 | gecko    | jedp          | warner?           |              |    | jwcrypto
+| 936487 | META     | TBD           |             | | | Disable flag(s)
+| 921344 | gaia/UI  | jedp          |             | | | disable updates in FTU |
 
 shane and olav doing front end, borja and sergi reviewing
