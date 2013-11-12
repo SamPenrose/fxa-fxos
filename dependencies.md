@@ -36,9 +36,9 @@ c.f. decisions.md
 
 |   Milestone      | Owner     | Target | Details |
 | ---------------- | --------- | ------ | -------- |
-| Broadcast roadmap| toxborrow | 12 Nov | All "external relationship contacts" alerted
+| Broadcast roadmap| toxborrow | 13 Nov | All "external relationship contacts" alerted
 | Final UX         | jgruen    | 13 Nov | Exactly what we're building, by EoD
-| Reviewers chosen | spenrose  | 13 Nov |
+| Reviewers chosen | spenrose  | 14 Nov |
 | Alpha build      | jedp      | 14 Nov | Nightly try build for WMF?, MP
 | Decisions made   | spenrose  | 15 Nov | Only execution left
 | Review #1 (all)  | spenrose  | 21 Nov | Every patch has initial review returned
