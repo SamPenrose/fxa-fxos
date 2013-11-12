@@ -80,6 +80,6 @@ The next table is for tracking reviewer assignments for the meatiest 2/3 of the 
 | 930598 | gecko    | ttaubert      | warner?           |              |    | Hawk
 | 935234 | gecko    | warner        | ferjm?            |              |    | FxAccounts
 | 936146 | gecko    | jedp          | warner?           |              |    | jwcrypto
-| 936487 | META     | TBD           |             | | | Disable flag(s)
-| 921344 | gaia/UI  | jedp          |             | | | disable updates in FTU |
+| 936487 | gecko    | TBD           |             | | | Disable flag(s)
+| 921344 | gaia     | jedp          |             | | | disable updates in FTU |
 
