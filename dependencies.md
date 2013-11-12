@@ -1,39 +1,3 @@
-Current normative docs
-----------------------
-* https://wiki.mozilla.org/Identity/Firefox-Accounts
-* https://wiki.mozilla.org/Identity/UX#FXOS
-  - both screen flows have minor inaccuracies as of 7 November
-    - examples: "or Persona Account", on-device password change
-* https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
-  - jedp has kept this up to date
-* http://www.gliffy.com/go/publish/image/5067437/L.png
-
-26 Nov Go / No Go Milestone: Criteria
--------------------------------------
- - all decisions made
- - all statuses re-verified
- - list of incomplete tasks must be:
-   * short
-   * 100% owned
-   * 90% targetted by 02 December
-
-**Decisions we have to make by Tuesday 12 Nov**
-
-|   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
-| ------- | ---------- | ------------------------- | ----------- | ---------- |
-| UX       | toxborrow | COPPA needed for 1.3?     | ?           | Yes -> Y   |
-| UX       | jgruen    | Password change, reset UX | web         | Y          |
-| Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
-| Gecko    | ckarlof   | use raw_password api      | Yes         | N
-| FTU      | borja     | email capture/pre-pop     | No          | Y?
-| System   | jedp      | push notif'n to device    | No          | N
-| System   | jedp      | email FTU -> Mail app     | No          | Y?
-| Settings | jedp      | Login state per-app?      | No          | Y
-| Settings | jedp      | UX for Delete account?    | web         | Y
-| MP/Legal | toxborrow | Marketplace & Deletion    | socialize   | N
-
-c.f. decisions.md
-
 |   Milestone      | Owner     | Target | Details |
 | ---------------- | --------- | ------ | -------- |
 | Broadcast roadmap| toxborrow | 13 Nov | All "external relationship contacts" alerted
@@ -50,22 +14,17 @@ c.f. decisions.md
 
 * for some definition of "All"
 
-Representatives
-----------------
+26 Nov Go / No Go Milestone: Criteria
+-------------------------------------
+ - all decisions made
+ - all statuses re-verified
+ - list of incomplete tasks must be:
+   * short
+   * 100% owned
+   * 90% targetted by 02 December
 
-|   Owner    | Area |
-| ---------- | ------------ |
-|  arogers   | FxOS product
-|  ckarlof   | FxA Services
-|  cserran   | FxOS engineering
-|  edwong    | Q/A
-|  jgruen    | UX (including FxOS UX team)
-|  kparlante | Metrics
-|  lloyd     | Mozilla as a whole
-|  toxborrow | Legal
-|  toxborrow | Security
-
-The next table is for tracking reviewer assignments for the meatiest 2/3 of the bugs that need to land in mozilla-central before 09 December.
+Reviewers
+---------
 
 | Bug    |  scope   | assignee      | f?/r? candidates  | f? booked    | r? booked | details |
 | ------ | -------- | ------------- | ----------------- | ------------ | --------- | -------|
@@ -83,3 +42,45 @@ The next table is for tracking reviewer assignments for the meatiest 2/3 of the 
 | 936487 | gecko    | TBD           |             | | | Disable flag(s)
 | 921344 | gaia     | jedp          |             | | | disable updates in FTU |
 
+Current normative docs
+----------------------
+* https://wiki.mozilla.org/Identity/Firefox-Accounts
+* https://wiki.mozilla.org/Identity/UX#FXOS
+  - both screen flows have minor inaccuracies as of 7 November
+    - examples: "or Persona Account", on-device password change
+* https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
+  - jedp has kept this up to date
+* http://www.gliffy.com/go/publish/image/5067437/L.png
+
+Representatives
+----------------
+
+|   Owner    | Area |
+| ---------- | ------------ |
+|  arogers   | FxOS product
+|  ckarlof   | FxA Services
+|  cserran   | FxOS engineering
+|  edwong    | Q/A
+|  jgruen    | UX (including FxOS UX team)
+|  kparlante | Metrics
+|  lloyd     | Mozilla as a whole
+|  toxborrow | Legal
+|  toxborrow | Security
+
+
+**Decisions we have to make by Tuesday 12 Nov**
+
+|   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
+| ------- | ---------- | ------------------------- | ----------- | ---------- |
+| UX       | toxborrow | COPPA needed for 1.3?     | ?           | Yes -> Y   |
+| UX       | jgruen    | Password change, reset UX | web         | Y          |
+| Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
+| Gecko    | ckarlof   | use raw_password api      | Yes         | N
+| FTU      | borja     | email capture/pre-pop     | No          | Y?
+| System   | jedp      | push notif'n to device    | No          | N
+| System   | jedp      | email FTU -> Mail app     | No          | Y?
+| Settings | jedp      | Login state per-app?      | No          | Y
+| Settings | jedp      | UX for Delete account?    | web         | Y
+| MP/Legal | toxborrow | Marketplace & Deletion    | socialize   | N
+
+c.f. decisions.md
