@@ -29,13 +29,12 @@ Reviewers
 | Bug    |  scope   | assignee      | f?/r? candidates  | f? booked    | r? booked | details |
 | ------ | -------- | ------------- | ----------------- | ------------ | --------- | -------|
 | 929388 | gaia/sys | ferjm         | alive, vivien     |
-| 929386 | gecko    | ferjm         | <spenrose>
 | 930471 | gaia/UI  | stomlinson    | borja, sergi      | yes          | yes
 | 930074 | gaia/UI  | olav (?)      | borja, sergi      | yes          | yes
 | 935602 | gaia/UI  | borjasalguero | alive?
 | 935232 | gecko    | zaach         | ferjm?
 | 909967 | gecko    | zaach         | rnewman?          | 
-| 929386 | gecko    | ferjm         | 
+| 929386 | gecko    | ferjm         | alive, vivien
 | 930598 | gecko    | ttaubert      | warner?           |              |    | Hawk
 | 935234 | gecko    | warner        | ferjm?            |              |    | FxAccounts
 | 936146 | gecko    | jedp          | warner?           |              |    | jwcrypto
