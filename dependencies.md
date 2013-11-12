@@ -83,4 +83,3 @@ The next table is for tracking reviewer assignments for the meatiest 2/3 of the 
 | 936487 | META     | TBD           |             | | | Disable flag(s)
 | 921344 | gaia/UI  | jedp          |             | | | disable updates in FTU |
 
-shane and olav doing front end, borja and sergi reviewing
