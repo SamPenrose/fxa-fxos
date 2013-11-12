@@ -26,20 +26,19 @@
 Reviewers
 ---------
 
-| Bug    |  scope   | assignee      | f?/r? candidates  | f? booked    | r? booked | details |
-| ------ | -------- | ------------- | ----------------- | ------------ | --------- | -------|
-| 929388 | gaia/sys | ferjm         | alive, vivien     |
-| 930471 | gaia/UI  | stomlinson    | borja, sergi      | yes          | yes
-| 930074 | gaia/UI  | olav (?)      | borja, sergi      | yes          | yes
-| 935602 | gaia/UI  | borjasalguero | alive?
-| 935232 | gecko    | zaach         | ferjm?
-| 909967 | gecko    | zaach         | rnewman?          | 
-| 929386 | gecko    | ferjm         | alive, vivien
-| 930598 | gecko    | ttaubert      | warner?           |              |    | Hawk
-| 935234 | gecko    | warner        | ferjm?            |              |    | FxAccounts
-| 936146 | gecko    | jedp          | warner?           |              |    | jwcrypto
-| 936487 | gecko    | TBD           |             | | | Disable flag(s)
-| 921344 | gaia     | jedp          |             | | | disable updates in FTU |
+| Bug    |  scope   | assignee      | f/r candidates  | booked? | details |
+| ------ | -------- | ------------- | --------------- | ------- | ------- |
+| 929388 | gaia/sys | ferjm         | alive, vivien   |         | FxAManager (big)
+| 930471 | gaia/UI  | stomlinson    | borja, sergi    | yes     | FTU UI
+| 930074 | gaia/UI  | olav (?)      | borja, sergi    | yes     | Settings UI
+| 935602 | gaia/UI  | borjasalguero | alive?          |         | KB hints
+| 935232 | gecko    | zaach         | ferjm?          |         | FxAccountsClient.jsm
+| 909967 | gecko    | zaach         | rnewman?        |         | [FxAccounts.jsm]
+| 929386 | gecko    | ferjm         | alive, vivien   |         | DOMIdentity
+| 930598 | gecko    | ttaubert      | warner?         |         | Hawk
+| 935234 | gecko    | warner        | ferjm?          |         | FxAccounts
+| 936146 | gecko    | jedp          | warner?         |         | jwcrypto
+| 936487 | gec/gaia | TBD           |                 |         | Disable flag(s)
 
 Current normative docs
 ----------------------
