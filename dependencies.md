@@ -68,8 +68,8 @@ Representatives
 
 |   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
 | ------- | ---------- | ------------------------- | ----------- | ---------- |
-| UX       | toxborrow | COPPA needed for 1.3?     | ?           | Yes -> Y   |
-| UX       | jgruen    | Password change, reset UX | web         | Y          |
+| UX       | toxborrow | COPPA needed for 1.3?     | in Settings | Y
+| UX       | jgruen    | Password change, reset UX | web         | Y
 | Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
 | Gecko    | ckarlof   | use raw_password api      | Yes         | N
 | FTU      | borja     | email capture/pre-pop     | No          | Y?
