@@ -26,19 +26,17 @@
 Reviewers
 ---------
 
-| Bug    |  scope   | assignee      | f/r candidates  | booked? | details |
-| ------ | -------- | ------------- | --------------- | ------- | ------- |
-| 929388 | gaia/sys | ferjm         | alive, vivien   |         | FxAManager (big)
-| 930471 | gaia/UI  | stomlinson    | borja, sergi    | yes     | FTU UI
-| 930074 | gaia/UI  | olav (?)      | borja, sergi    | yes     | Settings UI
-| 935602 | gaia/UI  | borjasalguero | alive?          |         | KB hints
-| 935232 | gecko    | zaach         | ferjm?          |         | FxAccountsClient.jsm
-| 909967 | gecko    | zaach         | rnewman?        |         | [FxAccounts.jsm]
-| 929386 | gecko    | ferjm         | alive, vivien   |         | DOMIdentity
-| 930598 | gecko    | ttaubert      | warner?         |         | Hawk
-| 935234 | gecko    | warner        | ferjm?          |         | FxAccounts
-| 936146 | gecko    | jedp          | warner?         |         | jwcrypto
-| 936487 | gec/gaia | TBD           |                 |         | Disable flag(s)
+| Bug    |  scope   | assignee      | f/r candidates     | booked? | details |
+| ------ | -------- | ------------- | ------------------ | ------- | ------- |
+| 929388 | gaia/sys | ferjm         | alive, vivien      | ?       | FxAManager (big)
+| 930471 | gaia/UI  | stomlinson    | borja, sergi       | yes     | FTU UI
+| 930074 | gaia/UI  | olav (?)      | borja, sergi, kaze | ?       | Settings UI
+| 935602 | gaia/UI  | borjasalguero | alive, vivien      | ?       | KB hints
+| 935232 | gecko    | zaach         | markh, taubert     | ?       | FxAccountsClient.jsm
+| 909967 | gecko    | zaach         | markh, taubert     | ?       | [FxAccounts.jsm]
+| 929386 | gecko    | ferjm         | alive, vivien      | ?       | DOMIdentity
+| 936146 | gecko    | jedp          | warner             | ?       | jwcrypto
+| 936487 | gec/gaia | TBD           |                    |         | Disable flag(s)
 
 Current normative docs
 ----------------------
