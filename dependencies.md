@@ -1,16 +1,16 @@
-|   Milestone      | Owner     | Target | Details |
-| ---------------- | --------- | ------ | -------- |
-| Broadcast roadmap| toxborrow | 13 Nov | All "external relationship contacts" alerted
-| Final UX         | jgruen    | 13 Nov | Exactly what we're building, by EoD
-| Reviewers chosen | spenrose  | 14 Nov | For major code bugs
-| Alpha build      | jedp      | 14 Nov | Nightly try build for WMF?, MP
-| Decisions made   | spenrose  | 15 Nov | Only execution left
-| Review #1 (all)  | spenrose  | 21 Nov | Every patch has initial review returned
-| Beta gut check   | jedp      | 26 Nov | Does 9 Dec look makeable?
-| Broadcast status | toxborrow | 27 Nov | Beta status to all stakeholders
-| Q/A Placehold1   | edwong    | 27 Nov | Details TBD
-| Ready for 9 Dec  | jedp      | 02 Dec | All* 9 Dec tasks due
-| Q/A Placehold2   | edwong    | 02 Dec | TBD
+|   Milestone      | Status  | Owner     | Target | Details |
+| ---------------- | ------- | --------- | ------ | -------- |
+| Broadcast roadmap| done    | toxborrow | 13 Nov | All "external relationship contacts" alerted
+| Decisions made   | done    | spenrose  | 15 Nov | Only execution left
+| Final UX         | due     | jgruen    | 13 Nov | Exactly what we're building, by EoD
+| Reviewers chosen | in prog | spenrose  | 14 Nov | For major code bugs
+| Alpha build      | in prog |       jedp      | 14 Nov | Nightly try build for WMF?, MP
+| Review #1 (all)  |         | spenrose  | 21 Nov | Every patch has initial review returned
+| Beta gut check   |         | jedp      | 26 Nov | Does 9 Dec look makeable?
+| Broadcast status |         | toxborrow | 27 Nov | Beta status to all stakeholders
+| Q/A Placehold1   |         | edwong    | 27 Nov | Details TBD
+| Ready for 9 Dec  |         | jedp      | 02 Dec | All* 9 Dec tasks due
+| Q/A Placehold2   |         | edwong    | 02 Dec | TBD
 
 * for some definition of "All"
 
