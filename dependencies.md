@@ -12,6 +12,10 @@
 | Ready for 9 Dec  |         | jedp      | 02 Dec | All* 9 Dec tasks due
 | Q/A Placehold2   |         | edwong    | 02 Dec | TBD
 
+| Open Decisions | Owner    | UX implications? |
+| -------------- | -------- | ---------------- |
+| WFM UX         | <WMF>    | Yes
+
 * for some definition of "All"
 
 26 Nov Go / No Go Milestone: Criteria
@@ -33,7 +37,7 @@ Reviewers
 | 930074 | gaia/UI  | olav (?)      | borja, sergi, kaze | ?       | Settings UI
 | 935602 | gaia/UI  | borjasalguero | alive, vivien      | ?       | KB hints
 | 935232 | gecko    | zaach         | markh, taubert     | ?       | FxAccountsClient.jsm
-| 909967 | gecko    | zaach         | markh, taubert     | ?       | [FxAccounts.jsm]
+| 909967 | gecko    | zaach         | markh, taubert     | ?       | FxAccounts.jsm
 | 929386 | gecko    | ferjm         | alive, vivien      | ?       | DOMIdentity
 | 936146 | gecko    | jedp          | warner             | ?       | jwcrypto
 | 936487 | gec/gaia | TBD           |                    |         | Disable flag(s)
@@ -51,23 +55,23 @@ Current normative docs
 Representatives
 ----------------
 
-|   Owner    | Area |
-| ---------- | ------------ |
-|  arogers   | FxOS product
-|  ckarlof   | FxA Services
-|  cserran   | FxOS engineering
-|  edwong    | Q/A
-|  jgruen    | UX (including FxOS UX team)
-|  kparlante | Metrics
-|  lloyd     | Mozilla as a whole
-|  toxborrow | Legal
-|  toxborrow | Security
+|  Owner    | Area |
+| --------- | ------------ |
+| arogers   | FxOS product
+| ckarlof   | FxA Services
+| cserran   | FxOS engineering
+| edwong    | Q/A
+| jgruen    | UX (including FxOS UX team)
+| kparlante | Metrics
+| lloyd     | Mozilla as a whole
+| toxborrow | Legal
+| toxborrow | Security
 
 
 **Decisions we have to make by Tuesday 12 Nov**
 
-|   Area  |   Owner    |   Decision                |  Decision   | UX Change ?
-| ------- | ---------- | ------------------------- | ----------- | ---------- |
+|   Area   |   Owner    |   Decision               |  Decision   | UX Change ?
+| -------- | ---------- | ------------------------ | ----------- | ---------- |
 | UX       | toxborrow | COPPA needed for 1.3?     | in Settings | Y
 | UX       | jgruen    | Password change, reset UX | web         | Y
 | Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
