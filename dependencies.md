@@ -1,45 +1,27 @@
 |   Milestone      | Status  | Owner     | Target | Details |
 | ---------------- | ------- | --------- | ------ | -------- |
-| Broadcast roadmap| done    | toxborrow | 13 Nov | All "external relationship contacts" alerted
-| Decisions made   | done    | spenrose  | 15 Nov | Only execution left
-| Final UX         | due     | jgruen    | 13 Nov | Exactly what we're building, by EoD
-| Reviewers chosen | in prog | spenrose  | 14 Nov | For major code bugs
-| Alpha build      | in prog | jedp      | 14 Nov | Nightly try build for WMF?, MP
-| Review #1 (all)  |         | spenrose  | 21 Nov | Every patch has initial review returned
-| Beta gut check   |         | jedp      | 26 Nov | Does 9 Dec look makeable?
-| Broadcast status |         | toxborrow | 27 Nov | Beta status to all stakeholders
+| Final UX         | slipped | jgruen    | 13 Nov | Exactly what we're building, by EoD
+| Alpha build      | slipped | jedp      | 19 Nov | Nightly try build for WMF?, MP
+| Reviews running  | in prog | spenrose  | 18 Nov | For major code bugs
+| Review #1 (all)  |         | spenrose  | 20 Nov | Every patch has initial review returned
 | Q/A Placehold1   |         | edwong    | 27 Nov | Details TBD
-| Ready for 9 Dec  |         | jedp      | 02 Dec | All* 9 Dec tasks due
-| Q/A Placehold2   |         | edwong    | 02 Dec | TBD
+| Ready for 9 Dec  |         | jedp      | 02 Dec | All 9 Dec tasks due
 
-| Open Decisions | Owner    | UX implications? |
-| -------------- | -------- | ---------------- |
-| WFM UX         | <WMF>    | Yes
 
-* for some definition of "All"
-
-26 Nov Go / No Go Milestone: Criteria
--------------------------------------
- - all decisions made
- - all statuses re-verified
- - list of incomplete tasks must be:
-   * short
-   * 100% owned
-   * 90% targetted by 02 December
 
 Reviewers
 ---------
 
-| Bug    |  scope   | assignee      | f/r candidates     | booked? | details |
-| ------ | -------- | ------------- | ------------------ | ------- | ------- |
-| 929388 | gaia/sys | ferjm         | alive, vivien      | ?       | FxAManager (big)
-| 930471 | gaia/UI  | stomlinson    | borja, sergi       | yes     | FTU UI
-| 930074 | gaia/UI  | olav (?)      | borja, sergi, kaze | ?       | Settings UI
-| 935602 | gaia/UI  | borjasalguero | alive, vivien      | ?       | KB hints
-| 935232 | gecko    | zaach         | markh, taubert     | ?       | FxAccountsClient.jsm
-| 909967 | gecko    | zaach         | markh, taubert     | ?       | FxAccounts.jsm
-| 929386 | gecko    | ferjm         | alive, vivien      | ?       | DOMIdentity
-| 936146 | gecko    | jedp          | warner             | ?       | jwcrypto
+| Bug    |  scope   | assignee      | f/r candidates           | booked? | details |
+| ------ | -------- | ------------- | ------------------------ | ------- | ------- |
+| 929388 | gaia/sys | ferjm         | alive, vivien            | ?       | FxAManager (big)
+| 930471 | gaia/UI  | stomlinson    | borja, sergi             | yes     | FTU UI
+| 930074 | gaia/UI  | olav (?)      | borja, sergi, kaze       | yes     | Settings UI
+| 935602 | gaia/UI  | borjasalguero | alive, vivien            | ?       | KB hints
+| 935232 | gecko    | zaach         | markh, taubert, sec-info | y, y, ? | FxAccountsClient.jsm
+| 909967 | gecko    | zaach         | markh, taubert           | yes     | FxAccounts.jsm
+| 929386 | gecko    | ferjm         | fabrice, ttaubert, jedp  | ?       | DOMIdentity
+| 936146 | gecko    | jedp          | warner                   | ?       | jwcrypto
 | 936487 | gec/gaia | TBD           |                    |         | Disable flag(s)
 
 Current normative docs
@@ -67,6 +49,9 @@ Representatives
 | toxborrow | Legal
 | toxborrow | Security
 
+bugs yet?
+| confirmation email tells server which service started it, service reminds user what app to load on phone
+| send origin of flow to server for metrics (same as above?)
 
 **Decisions we have to make by Tuesday 12 Nov**
 
