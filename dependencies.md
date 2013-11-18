@@ -1,13 +1,10 @@
 |   Milestone      | Status  | Owner     | Target | Details |
 | ---------------- | ------- | --------- | ------ | -------- |
-| Final UX         | slipped | jgruen    | 13 Nov | Exactly what we're building, by EoD
-| Alpha build      | slipped | jedp      | 19 Nov | Nightly try build for WMF?, MP
+| Alpha build      | in prog | jedp      | 19 Nov | Nightly try build for WMF?, MP
 | Reviews running  | in prog | spenrose  | 18 Nov | For major code bugs
-| Review #1 (all)  |         | spenrose  | 20 Nov | Every patch has initial review returned
+| Review #1 (all)  |         | spenrose  | 22 Nov | Every patch has initial review returned
 | Q/A Placehold1   |         | edwong    | 27 Nov | Details TBD
 | Ready for 9 Dec  |         | jedp      | 02 Dec | All 9 Dec tasks due
-
-
 
 Reviewers
 ---------
@@ -28,10 +25,7 @@ Current normative docs
 ----------------------
 * https://wiki.mozilla.org/Identity/Firefox-Accounts
 * https://wiki.mozilla.org/Identity/UX#FXOS
-  - both screen flows have minor inaccuracies as of 7 November
-    - examples: "or Persona Account", on-device password change
 * https://bugzilla.mozilla.org/showdependencytree.cgi?id=920135&hide_resolved=1
-  - jedp has kept this up to date
 * http://www.gliffy.com/go/publish/image/5067437/L.png
 
 Representatives
@@ -52,20 +46,3 @@ Representatives
 bugs yet?
 | confirmation email tells server which service started it, service reminds user what app to load on phone
 | send origin of flow to server for metrics (same as above?)
-
-**Decisions we have to make by Tuesday 12 Nov**
-
-|   Area   |   Owner    |   Decision               |  Decision   | UX Change ?
-| -------- | ---------- | ------------------------ | ----------- | ---------- |
-| UX       | toxborrow | COPPA needed for 1.3?     | in Settings | Y
-| UX       | jgruen    | Password change, reset UX | web         | Y
-| Gecko    | ckarlof   | certificate TTL?          | 6 hours     | N
-| Gecko    | ckarlof   | use raw_password api      | Yes         | N
-| FTU      | borja     | email capture/pre-pop     | No          | Y?
-| System   | jedp      | push notif'n to device    | No          | N
-| System   | jedp      | email FTU -> Mail app     | No          | Y?
-| Settings | jedp      | Login state per-app?      | No          | Y
-| Settings | jedp      | UX for Delete account?    | web         | Y
-| MP/Legal | toxborrow | Marketplace & Deletion    | socialize   | N
-
-c.f. decisions.md
